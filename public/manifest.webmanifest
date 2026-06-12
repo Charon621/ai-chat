@@ -1,0 +1,17 @@
+{
+  "name": "AI Chat",
+  "short_name": "AI Chat",
+  "description": "私人多模型 AI 聊天",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f8fc",
+  "theme_color": "#f7f8fc",
+  "icons": [
+    {
+      "src": "/app-icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
