@@ -249,7 +249,7 @@ function chatCompletionsUrl(baseUrl) {
 
 if (process.env.NODE_ENV === "production") {
   app.use(express.static(path.join(root, "dist")));
-  app.get("*", (_req, res) => {
+  app.use((_req, res) => {
     res.sendFile(path.join(root, "dist", "index.html"));
   });
 } else {
